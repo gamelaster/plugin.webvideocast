@@ -1,0 +1,15 @@
+<addon id="plugin.webvideocaster" name="Web Video Caster Receiver" version="0.9.0" provider-name="Marek Kraus">
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Web Video Cast</summary>
+        <description lang="en">This is a Kodi add-on that acts as Web Video Caster receiver.</description>
+        <platform>all</platform>
+    </extension>
+    <requires>
+        <import addon="script.module.requests" version="2.31.0" />
+        <import addon="script.module.websocket" version="1.6.4" />
+  </requires>
+</addon>
