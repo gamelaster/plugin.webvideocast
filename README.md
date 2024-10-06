@@ -17,6 +17,7 @@ Kodi Add-on which provides (unofficial) support for Web Video Caster® applicati
 
 Add-on is still quite in development, so bugs might pop up and some features are not finished yet. Some of them are:
 
+- Use random device ID
 - Playback speed
 - Rotation of video (if possible)
 - Only audio support
